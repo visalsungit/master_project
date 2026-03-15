@@ -1,0 +1,19 @@
+{
+  "name": "Master's Thesis - Retrieval Comparison",
+  "description": "Comparative evaluation of keyword, semantic, and hybrid retrieval strategies",
+  "strategies": [
+    "keyword",
+    "semantic",
+    "hybrid"
+  ],
+  "collections": [
+    "loan",
+    "credit_cards",
+    "fixed_deposits",
+    "savings_accounts"
+  ],
+  "num_queries_per_collection": 25,
+  "top_k": 5,
+  "random_seed": 42,
+  "timestamp": "2026-01-04T13:38:10.260395"
+}

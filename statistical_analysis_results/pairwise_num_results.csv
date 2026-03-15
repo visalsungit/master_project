@@ -1,0 +1,4 @@
+comparison,n,statistic,p_value,p_adjusted,significant
+keyword vs semantic,100,0.0,4.2249094050057074e-06,1.2674728215017122e-05,True
+keyword vs hybrid,100,0.0,4.2249094050057074e-06,1.2674728215017122e-05,True
+semantic vs hybrid,100,0.0,1.0,1.0,False

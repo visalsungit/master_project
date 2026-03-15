@@ -1,0 +1,254 @@
+{
+  "descriptive_statistics": [
+    {
+      "strategy": "keyword",
+      "metric": "num_results",
+      "n": 100,
+      "mean": 4.15,
+      "std": 1.6353111093129726,
+      "median": 5.0,
+      "min": 1.0,
+      "max": 5.0,
+      "q1": 5.0,
+      "q3": 5.0,
+      "iqr": 0.0,
+      "cv": 0.3940508697139693
+    },
+    {
+      "strategy": "semantic",
+      "metric": "num_results",
+      "n": 100,
+      "mean": 5.0,
+      "std": 0.0,
+      "median": 5.0,
+      "min": 5.0,
+      "max": 5.0,
+      "q1": 5.0,
+      "q3": 5.0,
+      "iqr": 0.0,
+      "cv": 0.0
+    },
+    {
+      "strategy": "hybrid",
+      "metric": "num_results",
+      "n": 100,
+      "mean": 5.0,
+      "std": 0.0,
+      "median": 5.0,
+      "min": 5.0,
+      "max": 5.0,
+      "q1": 5.0,
+      "q3": 5.0,
+      "iqr": 0.0,
+      "cv": 0.0
+    },
+    {
+      "strategy": "keyword",
+      "metric": "retrieval_time",
+      "n": 100,
+      "mean": 0.011094884872436523,
+      "std": 0.0027322125460243706,
+      "median": 0.01147162914276123,
+      "min": 0.0055692195892333984,
+      "max": 0.029366016387939453,
+      "q1": 0.010457038879394531,
+      "q3": 0.012296438217163086,
+      "iqr": 0.0018393993377685547,
+      "cv": 0.24625875594366176
+    },
+    {
+      "strategy": "semantic",
+      "metric": "retrieval_time",
+      "n": 100,
+      "mean": 0.09568235158920288,
+      "std": 0.6401761170551734,
+      "median": 0.029574990272521973,
+      "min": 0.02148723602294922,
+      "max": 6.432423830032349,
+      "q1": 0.027476072311401367,
+      "q3": 0.03355306386947632,
+      "iqr": 0.006076991558074951,
+      "cv": 6.690639458817534
+    },
+    {
+      "strategy": "hybrid",
+      "metric": "retrieval_time",
+      "n": 100,
+      "mean": 0.038126864433288575,
+      "std": 0.011116966945281062,
+      "median": 0.03541851043701172,
+      "min": 0.028930187225341797,
+      "max": 0.13619208335876465,
+      "q1": 0.033601224422454834,
+      "q3": 0.04092222452163696,
+      "iqr": 0.007321000099182129,
+      "cv": 0.29157831651046645
+    }
+  ],
+  "normality_tests": {
+    "num_results": {
+      "keyword": {
+        "test_name": "Shapiro-Wilk",
+        "statistic": 0.5086445874856447,
+        "p_value": 1.0643274896500282e-16,
+        "significant": "True",
+        "effect_size": null,
+        "interpretation": "Data is NOT normally distributed"
+      },
+      "semantic": {
+        "test_name": "Shapiro-Wilk",
+        "statistic": 1.0,
+        "p_value": 1.0,
+        "significant": "False",
+        "effect_size": null,
+        "interpretation": "Data appears normally distributed"
+      },
+      "hybrid": {
+        "test_name": "Shapiro-Wilk",
+        "statistic": 1.0,
+        "p_value": 1.0,
+        "significant": "False",
+        "effect_size": null,
+        "interpretation": "Data appears normally distributed"
+      }
+    },
+    "retrieval_time": {
+      "keyword": {
+        "test_name": "Shapiro-Wilk",
+        "statistic": 0.7120005457892491,
+        "p_value": 1.036158001641811e-12,
+        "significant": "True",
+        "effect_size": null,
+        "interpretation": "Data is NOT normally distributed"
+      },
+      "semantic": {
+        "test_name": "Shapiro-Wilk",
+        "statistic": 0.080714123224636,
+        "p_value": 3.835427891564627e-22,
+        "significant": "True",
+        "effect_size": null,
+        "interpretation": "Data is NOT normally distributed"
+      },
+      "hybrid": {
+        "test_name": "Shapiro-Wilk",
+        "statistic": 0.4247536690513526,
+        "p_value": 5.437310595492288e-18,
+        "significant": "True",
+        "effect_size": null,
+        "interpretation": "Data is NOT normally distributed"
+      }
+    }
+  },
+  "comparison_tests": {
+    "num_results": {
+      "test_name": "Friedman Test (Repeated Measures)",
+      "statistic": 43.999999999999936,
+      "p_value": 2.7894680928690187e-10,
+      "significant": "True",
+      "effect_size": 0.21999999999999967,
+      "interpretation": "Significant differences among methods (Kendall's W = 0.220, small effect)"
+    },
+    "retrieval_time": {
+      "test_name": "Friedman Test (Repeated Measures)",
+      "statistic": 186.98000000000002,
+      "p_value": 2.4992453161367475e-41,
+      "significant": "True",
+      "effect_size": 0.9349000000000001,
+      "interpretation": "Significant differences among methods (Kendall's W = 0.935, large effect)"
+    }
+  },
+  "pairwise_comparisons": {
+    "num_results": [
+      {
+        "comparison": "keyword vs semantic",
+        "n": 100,
+        "statistic": 0.0,
+        "p_value": 4.2249094050057074e-06,
+        "p_adjusted": 1.2674728215017122e-05,
+        "significant": true
+      },
+      {
+        "comparison": "keyword vs hybrid",
+        "n": 100,
+        "statistic": 0.0,
+        "p_value": 4.2249094050057074e-06,
+        "p_adjusted": 1.2674728215017122e-05,
+        "significant": true
+      },
+      {
+        "comparison": "semantic vs hybrid",
+        "n": 100,
+        "statistic": 0.0,
+        "p_value": 1.0,
+        "p_adjusted": 1.0,
+        "significant": false
+      }
+    ],
+    "retrieval_time": [
+      {
+        "comparison": "keyword vs semantic",
+        "n": 100,
+        "statistic": 0.0,
+        "p_value": 3.896559845095909e-18,
+        "p_adjusted": 1.1689679535287727e-17,
+        "significant": true
+      },
+      {
+        "comparison": "keyword vs hybrid",
+        "n": 100,
+        "statistic": 0.0,
+        "p_value": 3.896559845095909e-18,
+        "p_adjusted": 1.1689679535287727e-17,
+        "significant": true
+      },
+      {
+        "comparison": "semantic vs hybrid",
+        "n": 100,
+        "statistic": 318.0,
+        "p_value": 3.239224407217651e-14,
+        "p_adjusted": 9.717673221652952e-14,
+        "significant": true
+      }
+    ]
+  },
+  "effect_sizes": {
+    "num_results": {
+      "keyword_vs_semantic": {
+        "cohens_d": -0.5197787718552846,
+        "interpretation": "medium"
+      },
+      "keyword_vs_hybrid": {
+        "cohens_d": -0.5197787718552846,
+        "interpretation": "medium"
+      },
+      "semantic_vs_hybrid": {
+        "cohens_d": NaN,
+        "interpretation": "large"
+      },
+      "eta_squared": 0.15392809587217035
+    },
+    "retrieval_time": {
+      "keyword_vs_semantic": {
+        "cohens_d": -0.13251163244132713,
+        "interpretation": "negligible"
+      },
+      "keyword_vs_hybrid": {
+        "cohens_d": -2.397788938450489,
+        "interpretation": "large"
+      },
+      "semantic_vs_hybrid": {
+        "cohens_d": 0.09003450995982654,
+        "interpretation": "negligible"
+      },
+      "eta_squared": 0.009113510609248561
+    }
+  },
+  "visualizations": [
+    "statistical_analysis_results/boxplot_num_results.png",
+    "statistical_analysis_results/violin_num_results.png",
+    "statistical_analysis_results/boxplot_retrieval_time.png",
+    "statistical_analysis_results/violin_retrieval_time.png",
+    "statistical_analysis_results/correlation_heatmap.png",
+    "statistical_analysis_results/performance_comparison.png"
+  ]
+}

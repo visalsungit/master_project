@@ -1,0 +1,26 @@
+{
+  "baseline_method": "keyword",
+  "baseline_description": "Traditional keyword-based retrieval using text matching",
+  "comparison_methods": [
+    "semantic",
+    "hybrid"
+  ],
+  "primary_metrics": [
+    "precision@5",
+    "recall@5",
+    "mrr",
+    "ndcg@5",
+    "f1_score"
+  ],
+  "secondary_metrics": [
+    "retrieval_time",
+    "llm_time",
+    "total_time"
+  ],
+  "hypotheses": {
+    "H1": "Semantic retrieval will achieve higher precision than keyword-based retrieval",
+    "H2": "Hybrid retrieval will achieve the best overall performance across all metrics",
+    "H3": "Semantic retrieval will be slower than keyword-based retrieval",
+    "H4": "There will be no significant difference in LLM response time across methods"
+  }
+}

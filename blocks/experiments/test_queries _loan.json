@@ -1,0 +1,190 @@
+[
+  {
+    "id": "loan_01",
+    "difficulty": "easy",
+    "query": "mortgage loan for buying a house",
+    "collection": "loan",
+    "relevant_docs": ["ABABANK_Mortgage Loan", "ACLEDA_Housing Loan", "PPCBANK_Home Loan", "CANADIABANK_Home Loan", 
+                      "SATHAPANAKBANK_Mortgage Loan", "LOLC_Housing Loan","FTB_Housing Loan","CHIEFBANK_Housing Loan","PPCBAK_Home Loan"]
+  },
+  {
+    "id": "loan_02",
+    "difficulty": "easy",
+    "query": "ABA mortgage loan interest rate above 100,000 USD",
+    "collection": "loan",
+    "relevant_docs": ["ABABANK_Mortgage Loan"]
+  },
+  {
+    "id": "loan_03",
+    "difficulty": "easy",
+    "query": "home improvement loan for renovation",
+    "collection": "loan",
+    "relevant_docs": ["ABABANK_Mortgage Loan", "ACLEDA_Housing Loan", "PPCBANK_Home Loan", "CANADIABANK_Home Loan", 
+                      "SATHAPANAKBANK_home Loan", "LOLC_Housing Loan","FTB_Housing Loan","CHIEFBANK_Housing Loan","PPCBAK_Home Loan"]
+  },
+  {
+    "id": "loan_04",
+    "difficulty": "easy",
+    "query": "quick loan approval",
+    "collection": "loan",
+    "relevant_docs": ["PPCBANK_Annatean Rohas (Quick Loan)", "WINGBANK_Digital Loan"]
+  },
+  {
+    "id": "loan_05",
+    "difficulty": "easy",
+    "query": "digital loan application online",
+    "collection": "loan",
+    "relevant_docs": ["WINGBANK_Digital Loan", "WINGBANK_Digital Installment"]
+  },
+  {
+    "id": "loan_06",
+    "difficulty": "easy",
+    "query": "salary loan for employees",
+    "collection": "loan",
+    "relevant_docs": ["ABABANK_Salary Loan", "CANADIABANK_Personal Loan for Corporate Payroll", "ACLEDABANK_Individuals and Salaried Workers Loan","FTBBANK Unsecured Personal Loan"]
+  },
+  {
+    "id": "loan_07",
+    "difficulty": "medium",
+    "query": "tuition fee loan for university",
+    "collection": "loan",
+    "relevant_docs": ["ABABANK_Tuition Fee Loan", "ACLEDA_Student Loan","KBPRASACBANK_Education Loan"]
+  },
+  {
+    "id": "loan_08",
+    "difficulty": "easy",
+    "query": "small business loan for SME expansion",
+    "collection": "loan",
+    "relevant_docs": ["ABABANK_Small Business Loan", "WINGBANK_Small Business Loan", "ACLEDABANK_SME Business Loan", "KBPRASACBANK_sme Business Loan","LOLCMFI Group Loan",
+                      "LOLC_SME Loan","FTBBANK_Micro Business Loan","CANADIABANK_Small business loan"]
+  },
+  {
+    "id": "loan_09",
+    "difficulty": "easy",
+    "query": "medium business loan for working capital",
+    "collection": "loan",
+    "relevant_docs": ["ABABANK_Medium Business Loan", "WINGBANK_Medium Business Loan",  "ACLEDABANK_SME Business Loan",
+                      "ACLEDABANK_Medium-Sized Enterprise and Corporate Loan","KBPRASACBANK_sme Business Loan","LOLCMFI Group Loan",
+                      "CANADIABANK Medium Business Loan","FTBBANK_medium Business Loan"]
+  },
+  {
+    "id": "loan_10",
+    "difficulty": "medium",
+    "query": "large business loan for corporate financing",
+    "collection": "loan",
+    "relevant_docs": ["WINGBANK_Large Business Loan", "ABABANK_Medium Business Loan", "ACLEDABANK_Medium-Sized Enterprise and Corporate Loan",
+                      "KBPRASACBANK_Corporate Loan", "LOLC_Corporate Loan", "FTBBANK_Corporate Loan", "CHIEFBANK_Corporate Loan", "PPCBANK_Corporate Loan",
+                      "CANADIABANK_Large Business Loan"]
+  },
+  {
+    "id": "loan_11",
+    "difficulty": "medium",
+    "query": "business loan refinancing",
+    "collection": "loan",
+    "relevant_docs": ["ABABANK_Business Loan Refinancing"]
+  },
+  {
+    "id": "loan_12",
+    "difficulty": "easy",
+    "query": "car loan financing",
+    "collection": "loan",
+    "relevant_docs": ["WINGBANK_Car Loan", "CHIEFBANK_Car Loan", "PPCBANK_Personal Car Loan","FTBANK Auto Loan","KBPRASAC_Auto loan",
+                      "SATHAPANABANK auto loan","ACLEDA_Auto Loan"]
+  },
+  {
+    "id": "loan_13",
+    "difficulty": "easy",
+    "query": "moto loan for buying a motorcycle",
+    "collection": "loan",
+    "relevant_docs": ["WINGBANK_Moto Loan","ACLEDABANK_Motobike loan","CHIEFBANK_Motorbike Loan"]
+  },
+  {
+    "id": "loan_14",
+    "difficulty": "easy",
+    "query": "vehicle loan for purchasing a car",
+    "collection": "loan",
+    "relevant_docs": ["WINGBANK_Car Loan", "CHIEFBANK_Car Loan", "PPCBANK_Personal Car Loan","FTBANK Auto Loan","KBPRASAC_Auto loan",
+                      "SATHAPANABANK auto loan","ACLEDA_Auto Loan"]
+  },
+  {
+    "id": "loan_15",
+    "difficulty": "medium",
+    "query": "secured loan against fixed deposit",
+    "collection": "loan",
+    "relevant_docs": ["ABABANK_Instant Loan against Fixed Deposit", "PPCBANK_Loan Against Deposit"]
+  },
+  {
+    "id": "loan_16",
+    "difficulty": "medium",
+    "query": "loan against deposit",
+    "collection": "loan",
+    "relevant_docs": ["PPCBANK_Loan Against Deposit", "ABABANK_Instant Loan against Fixed Deposit","ACLEDABANK_Loan Against Term Deposit",
+                  "KBPRASACBANK_Loan Against Term Deposit"]   
+  },
+  {
+    "id": "loan_17",
+    "difficulty": "medium",
+    "query": "secured personal loan",
+    "collection": "loan",
+    "relevant_docs": ["CANADIABANK_Secured Personal Loan","ABABANK_Instant Loan against Fixed Deposit","PPCBANK_Loan Against Deposit"]
+  },
+  {
+    "id": "loan_18",
+    "difficulty": "medium",
+    "query": "personal loan for government officials",
+    "collection": "loan",
+    "relevant_docs": ["CANADIABANK_Personal Loan for Government Officials"]
+  },
+  {
+    "id": "loan_19",
+    "difficulty": "medium",
+    "query": "personal loan for corporate payroll employees",
+    "collection": "loan",
+    "relevant_docs": ["CANADIABANK_Personal Loan for Corporate Payroll","ABABANK_Personal loan","CANADIABANK_PAYROLL_PERSONAL_LOAN","CANADIABANK_CORPORATE_PAYROLL_PERSONAL_LOAN",
+                      "ACLEDABANK Personal Loan","FTBBANK Unsecured Personal Loan"]
+  },
+  {
+    "id": "loan_20",
+    "difficulty": "easy",
+    "query": "Songkhoem loan",
+    "collection": "loan",
+    "relevant_docs": ["PPCBANK_Songkhoem Loan"]
+  },
+  {
+    "id": "loan_21",
+    "difficulty": "medium",
+    "query": "Seasonal Loan (SNL)",
+    "collection": "loan",
+    "currency": "USD",
+    "relevant_docs": ["LOLC_Seasonal Loan (SNL)"]
+  },
+  {
+    "id": "loan_22",
+    "difficulty": "medium",
+    "query": "CHIEFBANK micro loan",
+    "collection": "loan",
+    "currency": "KHR",
+    "relevant_docs": ["CHIEFBANK_Micro Loan"]
+  },
+  {
+    "id": "loan_23",
+    "difficulty": "hard",
+    "query": "loan with long tenor up to 25 years",
+    "collection": "loan",
+    "relevant_docs": ["ABABANK_Mortgage Loan"]
+  },
+  {
+    "id": "loan_24",
+    "difficulty": "hard",
+    "query": "loan with financing up to 80% of property value",
+    "collection": "loan",
+    "relevant_docs": ["ABABANK_Mortgage Loan"]
+  },
+  {
+    "id": "loan_25",
+    "difficulty": "hard",
+    "query": "digital installment plan with equal monthly payments",
+    "collection": "loan",
+    "relevant_docs": ["WINGBANK_Digital Installment"]
+  }
+]

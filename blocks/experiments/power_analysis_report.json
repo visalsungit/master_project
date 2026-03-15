@@ -1,0 +1,37 @@
+{
+  "description": "Sample size requirements for comparing 3 retrieval methods",
+  "parameters": {
+    "alpha": 0.05,
+    "power": 0.8,
+    "num_methods": 3,
+    "test_type": "paired (repeated measures)"
+  },
+  "recommendations": {
+    "effect_0.2_small": {
+      "effect_size": 0.2,
+      "min_queries": 432,
+      "suggested_queries": 442
+    },
+    "effect_0.3_small": {
+      "effect_size": 0.3,
+      "min_queries": 192,
+      "suggested_queries": 202
+    },
+    "effect_0.5_medium": {
+      "effect_size": 0.5,
+      "min_queries": 69,
+      "suggested_queries": 79
+    },
+    "effect_0.8_large": {
+      "effect_size": 0.8,
+      "min_queries": 27,
+      "suggested_queries": 37
+    }
+  },
+  "practical_recommendation": {
+    "minimum": 50,
+    "recommended": 100,
+    "ideal": 200,
+    "per_collection": 25
+  }
+}

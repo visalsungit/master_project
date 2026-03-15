@@ -1,0 +1,290 @@
+[
+  {
+    "id": "sa_01",
+    "difficulty": "easy",
+    "query": "savings account offered by ABA Bank",
+    "collection": "savings_accounts",
+    "bank_code": "ABABANK",
+    "relevant_docs": [
+      "ABABANK_Savings Account"
+    ]
+  },
+  {
+    "id": "sa_02",
+    "difficulty": "easy",
+    "query": "savings account with zero minimum balance",
+    "collection": "savings_accounts",
+    "relevant_docs": [
+      "ABABANK_Savings Account",
+      "WINGBANK_High-Interest Savings Account",
+      "ACLEDABANK_Savings Account",
+      "LOLCMFI_Saving Account"
+    ]
+  },
+  {
+    "id": "sa_03",
+    "difficulty": "easy",
+    "query": "savings account that supports USD currency",
+    "collection": "savings_accounts",
+    "currency": "USD",
+    "relevant_docs": [
+      "ABABANK_Savings Account",
+      "CANADIABANK_Savings Account",
+      "WINGBANK_High-Interest Savings Account",
+      "SATHAPANABANK_Savings Account",
+      "ACLEDABANK_Savings Account",
+      "LOLCMFI_Saving Account",
+      "FTBBANK_Savings Account",
+        "CHIEFBANK_Saving Account",
+        "PPCBANK_Saving Account"
+    ]
+  },
+  {
+    "id": "sa_04",
+    "difficulty": "easy",
+    "query": "savings account available in both USD and KHR",
+    "collection": "savings_accounts",
+    "relevant_docs": [
+      "ABABANK_Savings Account",
+      "CANADIABANK_Savings Account",
+      "WINGBANK_High-Interest Savings Account",
+      "SATHAPANABANK_Savings Account",
+      "ACLEDABANK_Savings Account",
+      "LOLCMFI_Saving Account",
+      "FTBBANK_Savings Account",
+        "CHIEFBANK_Saving Account",
+        "PPCBANK_Saving Account"
+    ]
+  },
+  {
+    "id": "sa_05",
+    "difficulty": "medium",
+    "query": "savings account that pays interest monthly",
+    "collection": "savings_accounts",
+    "relevant_docs": [
+      "ABABANK_Savings Account",
+      "WINGBANK_High-Interest Savings Account",
+      "SATHAPANABANK_Savings Account",
+      "LOLCMFI_Saving Account"
+    ]
+  },
+  {
+    "id": "sa_06",
+    "difficulty": "medium",
+    "query": "savings account where interest is accrued daily",
+    "collection": "savings_accounts",
+    "relevant_docs": [
+      "ABABANK_Savings Account",
+      "WINGBANK_High-Interest Savings Account",
+      "ACLEDABANK_Savings Account",
+      "LOLCMFI_Saving Account"
+    ]
+  },
+  {
+    "id": "sa_07",
+    "difficulty": "easy",
+    "query": "Canadia Bank savings account",
+    "collection": "savings_accounts",
+    "bank_code": "CANADIABANK",
+    "relevant_docs": [
+      "CANADIABANK_Savings Account"
+    ]
+  },
+  {
+    "id": "sa_08",
+    "difficulty": "medium",
+    "query": "savings account with support for RMB currency",
+    "collection": "savings_accounts",
+    "currency": "RMB",
+    "relevant_docs": [
+      "CANADIABANK_Savings Account"
+    ]
+  },
+  {
+    "id": "sa_09",
+    "difficulty": "medium",
+    "query": "savings account that supports THB currency",
+    "collection": "savings_accounts",
+    "currency": "THB",
+    "relevant_docs": [
+      "CANADIABANK_Savings Account",
+      "ACLEDABANK_Savings Account",
+      "LOLCMFI_Saving Account"
+    ]
+  },
+  {
+    "id": "sa_10",
+    "difficulty": "medium",
+    "query": "savings account with tiered interest rate by balance",
+    "collection": "savings_accounts",
+    "relevant_docs": [
+      "ABABANK_Savings Account",
+      "WINGBANK_High-Interest Savings Account",
+      "CANADIABANK_Savings Account"
+    ]
+  },
+  {
+    "id": "sa_11",
+    "difficulty": "hard",
+    "query": "savings account that pays higher interest when balance is above 5000 USD",
+    "collection": "savings_accounts",
+    "currency": "USD",
+    "relevant_docs": [
+      "WINGBANK_High-Interest Savings Account",
+      "ABABANK_Savings Account"
+    ]
+  },
+  {
+    "id": "sa_12",
+    "difficulty": "medium",
+    "query": "savings account with no account maintenance fee",
+    "collection": "savings_accounts",
+    "relevant_docs": [
+      "ABABANK_Savings Account",
+      "FTBBANK_Savings Account",
+      "SATHAPANABANK_Savings Account",
+      "WINGBANK_High-Interest Savings Account"
+    ]
+  },
+  {
+    "id": "sa_13",
+    "difficulty": "medium",
+    "query": "savings account that issues debit card",
+    "collection": "savings_accounts",
+    "relevant_docs": [
+      "FTBBANK_Savings Account",
+      "SATHAPANABANK_Savings Account",
+      "CANADIABANK_Savings Account"
+    ]
+  },
+  {
+    "id": "sa_14",
+    "difficulty": "hard",
+    "query": "savings account with lowest minimum opening balance in USD",
+    "collection": "savings_accounts",
+    "currency": "USD",
+    "relevant_docs": [
+      "PPCBANK_Saving Account",
+      "ABABANK_Savings Account"
+    ]
+  },
+  {
+    "id": "sa_15",
+    "difficulty": "medium",
+    "query": "PPCBank savings account",
+    "collection": "savings_accounts",
+    "bank_code": "PPCBANK",
+    "relevant_docs": [
+      "PPCBANK_Saving Account"
+    ]
+  },
+  {
+    "id": "sa_16",
+    "difficulty": "hard",
+    "query": "savings account where interest is credited quarterly",
+    "collection": "savings_accounts",
+    "relevant_docs": [
+      "PPCBANK_Saving Account"
+    ]
+  },
+  {
+    "id": "sa_17",
+    "difficulty": "medium",
+    "query": "savings account that offers life insurance benefit",
+    "collection": "savings_accounts",
+    "relevant_docs": [
+      "LOLCMFI_Saving Account"
+    ]
+  },
+  {
+    "id": "sa_18",
+    "difficulty": "hard",
+    "query": "savings account with withholding tax rate of 4 percent for residents",
+    "collection": "savings_accounts",
+    "relevant_docs": [
+      "ABABANK_Savings Account",
+      "WINGBANK_High-Interest Savings Account",
+      "CHIEFBANK_Saving Account"
+    ]
+  },
+  {
+    "id": "sa_19",
+    "difficulty": "medium",
+    "query": "savings account that allows unlimited withdrawals",
+    "collection": "savings_accounts",
+    "relevant_docs": [
+      "ABABANK_Savings Account",
+      "LOLCMFI_Saving Account"
+    ]
+  },
+  {
+    "id": "sa_20",
+    "difficulty": "hard",
+    "query": "business savings account with multi currency support",
+    "collection": "savings_accounts",
+    "segment": "Business",
+    "relevant_docs": [
+      "ACLEDABANK_Savings Account",
+      "CHIEFBANK_Saving Account"
+    ]
+  },
+  {
+    "id": "sa_21",
+    "difficulty": "easy",
+    "query": "Wing Bank savings account",
+    "collection": "savings_accounts",
+    "bank_code": "WINGBANK",
+    "relevant_docs": [
+      "WINGBANK_High-Interest Savings Account"
+    ]
+  },
+  {
+    "id": "sa_22",
+    "difficulty": "hard",
+    "query": "savings account with early closure fee applied if closed within 6 months",
+    "collection": "savings_accounts",
+    "relevant_docs": [
+      "WINGBANK_High-Interest Savings Account",
+      "FTBBANK_Savings Account"
+    ]
+  },
+  {
+    "id": "sa_23",
+    "difficulty": "medium",
+    "query": "savings account with free mobile or internet banking access",
+    "collection": "savings_accounts",
+    "relevant_docs": [
+      "FTBBANK_Savings Account",
+      "ABABANK_Savings Account",
+      "LOLCMFI_Saving Account"
+    ]
+  },
+  {
+    "id": "sa_24",
+    "difficulty": "medium",
+    "query": "savings account that requires national ID or passport only",
+    "collection": "savings_accounts",
+    "relevant_docs": [
+      "ABABANK_Savings Account",
+      "SATHAPANABANK_Savings Account",
+      "FTBBANK_Savings Account"
+    ]
+  },
+  {
+    "id": "sa_25",
+    "difficulty": "easy",
+    "query": "how to open a savings account",
+    "collection": "savings_accounts",
+    "relevant_docs": [
+      "ABABANK_Savings Account",
+      "ACLEDABANK_Savings Account",
+      "CANADIABANK_Savings Account",
+      "WINGBANK_High-Interest Savings Account",
+      "FTBBANK_Savings Account",
+      "SATHAPANABANK_Savings Account",
+      "PPCBANK_Saving Account",
+      "LOLCMFI_Saving Account",
+      "CHIEFBANK_Saving Account"
+    ]
+  }
+]

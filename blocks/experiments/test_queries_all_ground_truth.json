@@ -1,0 +1,1170 @@
+[
+  {
+    "id": "loan_01",
+    "difficulty": "easy",
+    "query": "mortgage loan for buying a house",
+    "collection": "loan",
+    "relevant_docs": [
+      "ABABANK_Mortgage Loan",
+      "ACLEDA_Housing Loan",
+      "PPCBANK_Home Loan",
+      "CANADIABANK_Home Loan",
+      "SATHAPANAKBANK_Mortgage Loan",
+      "LOLC_Housing Loan",
+      "FTB_Housing Loan",
+      "CHIEFBANK_Housing Loan",
+      "PPCBAK_Home Loan"
+    ]
+  },
+  {
+    "id": "loan_02",
+    "difficulty": "easy",
+    "query": "ABA mortgage loan interest rate above 100,000 USD",
+    "collection": "loan",
+    "relevant_docs": [
+      "ABABANK_Mortgage Loan"
+    ]
+  },
+  {
+    "id": "loan_03",
+    "difficulty": "easy",
+    "query": "home improvement loan for renovation",
+    "collection": "loan",
+    "relevant_docs": [
+      "ABABANK_Mortgage Loan",
+      "ACLEDA_Housing Loan",
+      "PPCBANK_Home Loan",
+      "CANADIABANK_Home Loan",
+      "SATHAPANAKBANK_home Loan",
+      "LOLC_Housing Loan",
+      "FTB_Housing Loan",
+      "CHIEFBANK_Housing Loan",
+      "PPCBAK_Home Loan"
+    ]
+  },
+  {
+    "id": "loan_04",
+    "difficulty": "easy",
+    "query": "quick loan approval",
+    "collection": "loan",
+    "relevant_docs": [
+      "PPCBANK_Annatean Rohas (Quick Loan)",
+      "WINGBANK_Digital Loan"
+    ]
+  },
+  {
+    "id": "loan_05",
+    "difficulty": "easy",
+    "query": "digital loan application online",
+    "collection": "loan",
+    "relevant_docs": [
+      "WINGBANK_Digital Loan",
+      "WINGBANK_Digital Installment"
+    ]
+  },
+  {
+    "id": "loan_06",
+    "difficulty": "easy",
+    "query": "salary loan for employees",
+    "collection": "loan",
+    "relevant_docs": [
+      "ABABANK_Salary Loan",
+      "CANADIABANK_Personal Loan for Corporate Payroll",
+      "ACLEDABANK_Individuals and Salaried Workers Loan",
+      "FTBBANK Unsecured Personal Loan"
+    ]
+  },
+  {
+    "id": "loan_07",
+    "difficulty": "medium",
+    "query": "tuition fee loan for university",
+    "collection": "loan",
+    "relevant_docs": [
+      "ABABANK_Tuition Fee Loan",
+      "ACLEDA_Student Loan",
+      "KBPRASACBANK_Education Loan"
+    ]
+  },
+  {
+    "id": "loan_08",
+    "difficulty": "easy",
+    "query": "small business loan for SME expansion",
+    "collection": "loan",
+    "relevant_docs": [
+      "ABABANK_Small Business Loan",
+      "WINGBANK_Small Business Loan",
+      "ACLEDABANK_SME Business Loan",
+      "KBPRASACBANK_sme Business Loan",
+      "LOLCMFI Group Loan",
+      "LOLC_SME Loan",
+      "FTBBANK_Micro Business Loan",
+      "CANADIABANK_Small business loan"
+    ]
+  },
+  {
+    "id": "loan_09",
+    "difficulty": "easy",
+    "query": "medium business loan for working capital",
+    "collection": "loan",
+    "relevant_docs": [
+      "ABABANK_Medium Business Loan",
+      "WINGBANK_Medium Business Loan",
+      "ACLEDABANK_SME Business Loan",
+      "ACLEDABANK_Medium-Sized Enterprise and Corporate Loan",
+      "KBPRASACBANK_sme Business Loan",
+      "LOLCMFI Group Loan",
+      "CANADIABANK Medium Business Loan",
+      "FTBBANK_medium Business Loan"
+    ]
+  },
+  {
+    "id": "loan_10",
+    "difficulty": "medium",
+    "query": "large business loan for corporate financing",
+    "collection": "loan",
+    "relevant_docs": [
+      "WINGBANK_Large Business Loan",
+      "ABABANK_Medium Business Loan",
+      "ACLEDABANK_Medium-Sized Enterprise and Corporate Loan",
+      "KBPRASACBANK_Corporate Loan",
+      "LOLC_Corporate Loan",
+      "FTBBANK_Corporate Loan",
+      "CHIEFBANK_Corporate Loan",
+      "PPCBANK_Corporate Loan",
+      "CANADIABANK_Large Business Loan"
+    ]
+  },
+  {
+    "id": "loan_11",
+    "difficulty": "medium",
+    "query": "business loan refinancing",
+    "collection": "loan",
+    "relevant_docs": [
+      "ABABANK_Business Loan Refinancing"
+    ]
+  },
+  {
+    "id": "loan_12",
+    "difficulty": "easy",
+    "query": "car loan financing",
+    "collection": "loan",
+    "relevant_docs": [
+      "WINGBANK_Car Loan",
+      "CHIEFBANK_Car Loan",
+      "PPCBANK_Personal Car Loan",
+      "FTBANK Auto Loan",
+      "KBPRASAC_Auto loan",
+      "SATHAPANABANK auto loan",
+      "ACLEDA_Auto Loan"
+    ]
+  },
+  {
+    "id": "loan_13",
+    "difficulty": "easy",
+    "query": "moto loan for buying a motorcycle",
+    "collection": "loan",
+    "relevant_docs": [
+      "WINGBANK_Moto Loan",
+      "ACLEDABANK_Motobike loan",
+      "CHIEFBANK_Motorbike Loan"
+    ]
+  },
+  {
+    "id": "loan_14",
+    "difficulty": "easy",
+    "query": "vehicle loan for purchasing a car",
+    "collection": "loan",
+    "relevant_docs": [
+      "WINGBANK_Car Loan",
+      "CHIEFBANK_Car Loan",
+      "PPCBANK_Personal Car Loan",
+      "FTBANK Auto Loan",
+      "KBPRASAC_Auto loan",
+      "SATHAPANABANK auto loan",
+      "ACLEDA_Auto Loan"
+    ]
+  },
+  {
+    "id": "loan_15",
+    "difficulty": "medium",
+    "query": "secured loan against fixed deposit",
+    "collection": "loan",
+    "relevant_docs": [
+      "ABABANK_Instant Loan against Fixed Deposit",
+      "PPCBANK_Loan Against Deposit"
+    ]
+  },
+  {
+    "id": "loan_16",
+    "difficulty": "medium",
+    "query": "loan against deposit",
+    "collection": "loan",
+    "relevant_docs": [
+      "PPCBANK_Loan Against Deposit",
+      "ABABANK_Instant Loan against Fixed Deposit",
+      "ACLEDABANK_Loan Against Term Deposit",
+      "KBPRASACBANK_Loan Against Term Deposit"
+    ]
+  },
+  {
+    "id": "loan_17",
+    "difficulty": "medium",
+    "query": "secured personal loan",
+    "collection": "loan",
+    "relevant_docs": [
+      "CANADIABANK_Secured Personal Loan",
+      "ABABANK_Instant Loan against Fixed Deposit",
+      "PPCBANK_Loan Against Deposit"
+    ]
+  },
+  {
+    "id": "loan_18",
+    "difficulty": "medium",
+    "query": "personal loan for government officials",
+    "collection": "loan",
+    "relevant_docs": [
+      "CANADIABANK_Personal Loan for Government Officials"
+    ]
+  },
+  {
+    "id": "loan_19",
+    "difficulty": "medium",
+    "query": "personal loan for corporate payroll employees",
+    "collection": "loan",
+    "relevant_docs": [
+      "CANADIABANK_Personal Loan for Corporate Payroll",
+      "ABABANK_Personal loan",
+      "CANADIABANK_PAYROLL_PERSONAL_LOAN",
+      "CANADIABANK_CORPORATE_PAYROLL_PERSONAL_LOAN",
+      "ACLEDABANK Personal Loan",
+      "FTBBANK Unsecured Personal Loan"
+    ]
+  },
+  {
+    "id": "loan_20",
+    "difficulty": "easy",
+    "query": "Songkhoem loan",
+    "collection": "loan",
+    "relevant_docs": [
+      "PPCBANK_Songkhoem Loan"
+    ]
+  },
+  {
+    "id": "loan_21",
+    "difficulty": "medium",
+    "query": "Seasonal Loan (SNL)",
+    "collection": "loan",
+    "currency": "USD",
+    "relevant_docs": [
+      "LOLC_Seasonal Loan (SNL)"
+    ]
+  },
+  {
+    "id": "loan_22",
+    "difficulty": "medium",
+    "query": "CHIEFBANK micro loan",
+    "collection": "loan",
+    "currency": "KHR",
+    "relevant_docs": [
+      "CHIEFBANK_Micro Loan"
+    ]
+  },
+  {
+    "id": "loan_23",
+    "difficulty": "hard",
+    "query": "loan with long tenor up to 25 years",
+    "collection": "loan",
+    "relevant_docs": [
+      "ABABANK_Mortgage Loan"
+    ]
+  },
+  {
+    "id": "loan_24",
+    "difficulty": "hard",
+    "query": "loan with financing up to 80% of property value",
+    "collection": "loan",
+    "relevant_docs": [
+      "ABABANK_Mortgage Loan"
+    ]
+  },
+  {
+    "id": "loan_25",
+    "difficulty": "hard",
+    "query": "digital installment plan with equal monthly payments",
+    "collection": "loan",
+    "relevant_docs": [
+      "WINGBANK_Digital Installment"
+    ]
+  },
+  {
+    "id": "cc_01",
+    "difficulty": "easy",
+    "query": "credit card offered by ABA Bank",
+    "collection": "credit_cards",
+    "relevant_docs": [
+      "ABABANK_Mastercard Standard",
+      "ABABANK_Visa Classic",
+      "ABABANK_Visa Platinum",
+      "ABABANK_Visa Platinum Lite",
+      "ABABANK_Mastercard Platinum",
+      "ABABANK_Visa Business"
+    ]
+  },
+  {
+    "id": "cc_02",
+    "difficulty": "easy",
+    "query": "Visa credit card from ABA Bank",
+    "collection": "credit_cards",
+    "network": "Visa",
+    "bank_code": "ABABANK",
+    "relevant_docs": [
+      "ABABANK_Visa Classic",
+      "ABABANK_Visa Platinum",
+      "ABABANK_Visa Platinum Lite",
+      "ABABANK_Visa Business"
+    ]
+  },
+  {
+    "id": "cc_03",
+    "difficulty": "easy",
+    "query": "Mastercard credit card from ABA Bank",
+    "collection": "credit_cards",
+    "network": "Mastercard",
+    "bank_code": "ABABANK",
+    "relevant_docs": [
+      "ABABANK_Mastercard Standard",
+      "ABABANK_Mastercard Platinum"
+    ]
+  },
+  {
+    "id": "cc_04",
+    "difficulty": "easy",
+    "query": "premium credit card from ABA Bank",
+    "collection": "credit_cards",
+    "bank_code": "ABABANK",
+    "relevant_docs": [
+      "ABABANK_Visa Platinum",
+      "ABABANK_Mastercard Platinum",
+      "ABABANK_Visa Platinum Lite"
+    ]
+  },
+  {
+    "id": "cc_05",
+    "difficulty": "medium",
+    "query": "ABA credit card with lowest annual fee",
+    "collection": "credit_cards",
+    "bank_code": "ABABANK",
+    "relevant_docs": [
+      "ABABANK_Mastercard Standard",
+      "ABABANK_Visa Classic"
+    ]
+  },
+  {
+    "id": "cc_06",
+    "difficulty": "medium",
+    "query": "ABA credit card with airport lounge access",
+    "collection": "credit_cards",
+    "bank_code": "ABABANK",
+    "relevant_docs": [
+      "ABABANK_Visa Platinum",
+      "ABABANK_Mastercard Platinum"
+    ]
+  },
+  {
+    "id": "cc_07",
+    "difficulty": "medium",
+    "query": "credit card with interest free period of 45 days",
+    "collection": "credit_cards",
+    "relevant_docs": [
+      "ABABANK_Visa Classic",
+      "ABABANK_Mastercard Standard",
+      "CANADIABANK_Visa Gold",
+      "CANADIABANK_Visa Infinite"
+    ]
+  },
+  {
+    "id": "cc_08",
+    "difficulty": "easy",
+    "query": "Wing Bank credit card",
+    "collection": "credit_cards",
+    "bank_code": "WINGBANK",
+    "relevant_docs": [
+      "WINGBANK_Visa Credit Card Gold",
+      "WINGBANK_Visa Credit Card Platinum"
+    ]
+  },
+  {
+    "id": "cc_09",
+    "difficulty": "medium",
+    "query": "Wing credit card with airport lounge access",
+    "collection": "credit_cards",
+    "bank_code": "WINGBANK",
+    "relevant_docs": [
+      "WINGBANK_Visa Credit Card Gold",
+      "WINGBANK_Visa Credit Card Platinum"
+    ]
+  },
+  {
+    "id": "cc_10",
+    "difficulty": "hard",
+    "query": "Wing credit card that allows 55 days interest free period",
+    "collection": "credit_cards",
+    "bank_code": "WINGBANK",
+    "relevant_docs": [
+      "WINGBANK_Visa Credit Card Gold",
+      "WINGBANK_Visa Credit Card Platinum"
+    ]
+  },
+  {
+    "id": "cc_11",
+    "difficulty": "medium",
+    "query": "Canadia Bank Visa credit cards",
+    "collection": "credit_cards",
+    "bank_code": "CANADIABANK",
+    "network": "Visa",
+    "relevant_docs": [
+      "CANADIABANK_Visa Classic",
+      "CANADIABANK_Visa Gold",
+      "CANADIABANK_Visa Infinite"
+    ]
+  },
+  {
+    "id": "cc_12",
+    "difficulty": "medium",
+    "query": "Canadia credit card with minimum credit limit of at least 20000 USD",
+    "collection": "credit_cards",
+    "bank_code": "CANADIABANK",
+    "relevant_docs": [
+      "CANADIABANK_Visa Infinite"
+    ]
+  },
+  {
+    "id": "cc_13",
+    "difficulty": "hard",
+    "query": "credit card backed 100 percent by fixed deposit",
+    "collection": "credit_cards",
+    "relevant_docs": [
+      "CANADIABANK_Visa Infinite",
+      "CANADIABANK_Visa Gold",
+      "CANADIABANK_Mastercard Gold"
+    ]
+  },
+  {
+    "id": "cc_14",
+    "difficulty": "easy",
+    "query": "Canadia Bank Mastercard credit card",
+    "collection": "credit_cards",
+    "bank_code": "CANADIABANK",
+    "network": "Mastercard",
+    "relevant_docs": [
+      "CANADIABANK_Mastercard Classic",
+      "CANADIABANK_Mastercard Gold"
+    ]
+  },
+  {
+    "id": "cc_15",
+    "difficulty": "hard",
+    "query": "credit card with lounge access and annual fee above 250 USD",
+    "collection": "credit_cards",
+    "relevant_docs": [
+      "CANADIABANK_Visa Infinite",
+      "ABABANK_Visa Platinum",
+      "ABABANK_Mastercard Platinum"
+    ]
+  },
+  {
+    "id": "cc_16",
+    "difficulty": "medium",
+    "query": "credit card with daily purchase limit of 50000 USD",
+    "collection": "credit_cards",
+    "relevant_docs": [
+      "ABABANK_Visa Platinum",
+      "ABABANK_Mastercard Platinum",
+      "CANADIABANK_Visa Infinite"
+    ]
+  },
+  {
+    "id": "cc_17",
+    "difficulty": "medium",
+    "query": "credit card with low foreign currency transaction fee",
+    "collection": "credit_cards",
+    "relevant_docs": [
+      "ABABANK_Visa Classic",
+      "CANADIABANK_Visa Gold"
+    ]
+  },
+  {
+    "id": "cc_18",
+    "difficulty": "easy",
+    "query": "ACLEDA credit card",
+    "collection": "credit_cards",
+    "bank_code": "ACLEDABANK",
+    "relevant_docs": [
+      "ACLEDABANK_Visa Classic",
+      "ACLEDABANK_Visa Gold",
+      "ACLEDABANK_Visa Platinum"
+    ]
+  },
+  {
+    "id": "cc_19",
+    "difficulty": "medium",
+    "query": "ACLEDA Visa credit card with highest daily withdrawal limit",
+    "collection": "credit_cards",
+    "bank_code": "ACLEDABANK",
+    "relevant_docs": [
+      "ACLEDABANK_Visa Platinum"
+    ]
+  },
+  {
+    "id": "cc_20",
+    "difficulty": "hard",
+    "query": "credit card with annual fee under 20 USD and interest free period",
+    "collection": "credit_cards",
+    "relevant_docs": [
+      "ABABANK_Visa Classic",
+      "CANADIABANK_Visa Classic",
+      "ACLEDABANK_Visa Classic"
+    ]
+  },
+  {
+    "id": "cc_21",
+    "difficulty": "easy",
+    "query": "Sathapana Bank credit card",
+    "collection": "credit_cards",
+    "bank_code": "SATHAPANABANK",
+    "relevant_docs": [
+      "SATHAPANABANK_Classic Card",
+      "SATHAPANABANK_Gold Card",
+      "SATHAPANABANK_Platinum Card"
+    ]
+  },
+  {
+    "id": "cc_22",
+    "difficulty": "hard",
+    "query": "credit card with supplementary cards allowed up to 5",
+    "collection": "credit_cards",
+    "relevant_docs": [
+      "WINGBANK_Visa Credit Card Gold",
+      "WINGBANK_Visa Credit Card Platinum"
+    ]
+  },
+  {
+    "id": "cc_23",
+    "difficulty": "medium",
+    "query": "credit card with cashback or merchant discount offers",
+    "collection": "credit_cards",
+    "relevant_docs": [
+      "CANADIABANK_Visa Infinite",
+      "CANADIABANK_Visa Gold"
+    ]
+  },
+  {
+    "id": "cc_24",
+    "difficulty": "hard",
+    "query": "credit card with highest airport lounge access per year",
+    "collection": "credit_cards",
+    "relevant_docs": [
+      "ABABANK_Visa Platinum",
+      "ABABANK_Mastercard Platinum",
+      "WINGBANK_Visa Credit Card Platinum"
+    ]
+  },
+  {
+    "id": "cc_25",
+    "difficulty": "medium",
+    "query": "credit card suitable for business use",
+    "collection": "credit_cards",
+    "relevant_docs": [
+      "ABABANK_Visa Business"
+    ]
+  },
+  {
+    "id": "fd_01",
+    "difficulty": "easy",
+    "query": "fixed deposit account in USD",
+    "collection": "fixed_deposits",
+    "currency": "USD",
+    "relevant_docs": [
+      "ACLEDABANK_Term Deposit",
+      "ABABANK_Fixed Deposit",
+      "WINGBANK_Term Deposit",
+      "CHIEFBANK_Fixed Deposit Account",
+      "CANADIABANK_Fixed Deposit Account"
+    ]
+  },
+  {
+    "id": "fd_02",
+    "difficulty": "easy",
+    "query": "fixed deposit account in Cambodian Riel",
+    "collection": "fixed_deposits",
+    "currency": "KHR",
+    "relevant_docs": [
+      "ACLEDABANK_Term Deposit",
+      "ABABANK_Fixed Deposit",
+      "WINGBANK_Term Deposit",
+      "SATHAPANABANK_Term Deposit",
+      "CANADIABANK_Fixed Deposit Account"
+    ]
+  },
+  {
+    "id": "fd_03",
+    "difficulty": "medium",
+    "query": "which bank offers fixed deposit in Thai Baht",
+    "collection": "fixed_deposits",
+    "currency": "THB",
+    "relevant_docs": [
+      "ACLEDABANK_Term Deposit",
+      "CANADIABANK_Fixed Deposit Account"
+    ]
+  },
+  {
+    "id": "fd_04",
+    "difficulty": "medium",
+    "query": "fixed deposit account that supports RMB currency",
+    "collection": "fixed_deposits",
+    "currency": "RMB",
+    "relevant_docs": [
+      "CANADIABANK_Fixed Deposit Account"
+    ]
+  },
+  {
+    "id": "fd_05",
+    "difficulty": "medium",
+    "query": "Canadia Bank fixed deposit with quarterly interest payment",
+    "collection": "fixed_deposits",
+    "bank_codes": [
+      "CANADIABANK"
+    ],
+    "relevant_docs": [
+      "CANADIABANK_Fixed Deposit Account"
+    ]
+  },
+  {
+    "id": "fd_06",
+    "difficulty": "medium",
+    "query": "fixed deposit that pays interest every 3 months",
+    "collection": "fixed_deposits",
+    "relevant_docs": [
+      "ACLEDABANK_Term Deposit",
+      "FTBBANK_Fixed Deposit"
+    ]
+  },
+  {
+    "id": "fd_07",
+    "difficulty": "easy",
+    "query": "fixed deposit with interest paid at maturity",
+    "collection": "fixed_deposits",
+    "relevant_docs": [
+      "ABABANK_Fixed Deposit",
+      "CHIEFBANK_Fixed Deposit Account",
+      "WINGBANK_Term Deposit",
+      "CANADIABANK_Fixed Deposit Account"
+    ]
+  },
+  {
+    "id": "fd_08",
+    "difficulty": "easy",
+    "query": "fixed deposit with monthly interest payment",
+    "collection": "fixed_deposits",
+    "relevant_docs": [
+      "ACLEDABANK_Term Deposit",
+      "WINGBANK_Term Deposit",
+      "ABABANK_Fixed Deposit",
+      "PPCBANK_Fixed Deposit Account",
+      "KBPRASACBANK_Term Deposit Account"
+    ]
+  },
+  {
+    "id": "fd_09",
+    "difficulty": "medium",
+    "query": "term deposit that allows interest payout every month but principal at maturity",
+    "collection": "fixed_deposits",
+    "relevant_docs": [
+      "ACLEDABANK_Term Deposit",
+      "WINGBANK_Term Deposit",
+      "KBPRASACBANK_Term Deposit Account"
+    ]
+  },
+  {
+    "id": "fd_10",
+    "difficulty": "medium",
+    "query": "minimum USD deposit for ACLEDA term deposit opened via mobile app",
+    "collection": "fixed_deposits",
+    "bank_codes": [
+      "ACLEDABANK"
+    ],
+    "currency": "USD",
+    "relevant_docs": [
+      "ACLEDABANK_Term Deposit"
+    ]
+  },
+  {
+    "id": "fd_11",
+    "difficulty": "medium",
+    "query": "minimum USD deposit for ACLEDA term deposit opened at branch counter",
+    "collection": "fixed_deposits",
+    "bank_codes": [
+      "ACLEDABANK"
+    ],
+    "currency": "USD",
+    "relevant_docs": [
+      "ACLEDABANK_Term Deposit"
+    ]
+  },
+  {
+    "id": "fd_12",
+    "difficulty": "medium",
+    "query": "term deposit certificate that can be used as loan collateral",
+    "collection": "fixed_deposits",
+    "relevant_docs": [
+      "ACLEDABANK_Term Deposit",
+      "KBPRASACBANK_Term Deposit Account"
+    ]
+  },
+  {
+    "id": "fd_13",
+    "difficulty": "hard",
+    "query": "ACLEDA hi-growth term deposit rate for 12 months in USD",
+    "collection": "fixed_deposits",
+    "bank_codes": [
+      "ACLEDABANK"
+    ],
+    "currency": "USD",
+    "relevant_docs": [
+      "ACLEDABANK_Term Deposit"
+    ]
+  },
+  {
+    "id": "fd_14",
+    "difficulty": "hard",
+    "query": "ACLEDA hi-income term deposit with monthly interest for 12 months in USD",
+    "collection": "fixed_deposits",
+    "bank_codes": [
+      "ACLEDABANK"
+    ],
+    "currency": "USD",
+    "relevant_docs": [
+      "ACLEDABANK_Term Deposit"
+    ]
+  },
+  {
+    "id": "fd_15",
+    "difficulty": "hard",
+    "query": "ACLEDA long-term term deposit interest for 36 months in KHR",
+    "collection": "fixed_deposits",
+    "bank_codes": [
+      "ACLEDABANK"
+    ],
+    "currency": "KHR",
+    "relevant_docs": [
+      "ACLEDABANK_Term Deposit"
+    ]
+  },
+  {
+    "id": "fd_16",
+    "difficulty": "medium",
+    "query": "fixed deposit with tenure longer than 5 years",
+    "collection": "fixed_deposits",
+    "relevant_docs": [
+      "ACLEDABANK_Term Deposit",
+      "CANADIABANK_Fixed Deposit Account"
+    ]
+  },
+  {
+    "id": "fd_17",
+    "difficulty": "medium",
+    "query": "Wing Bank term deposit interest rate for 12 months with monthly payout",
+    "collection": "fixed_deposits",
+    "bank_codes": [
+      "WINGBANK"
+    ],
+    "relevant_docs": [
+      "WINGBANK_Term Deposit"
+    ]
+  },
+  {
+    "id": "fd_18",
+    "difficulty": "medium",
+    "query": "Chief Bank fixed deposit interest for 12 months in USD",
+    "collection": "fixed_deposits",
+    "bank_codes": [
+      "CHIEFBANK"
+    ],
+    "currency": "USD",
+    "relevant_docs": [
+      "CHIEFBANK_Fixed Deposit Account"
+    ]
+  },
+  {
+    "id": "fd_19",
+    "difficulty": "hard",
+    "query": "Canadia Bank fixed deposit 3-year term with quarterly interest",
+    "collection": "fixed_deposits",
+    "bank_codes": [
+      "CANADIABANK"
+    ],
+    "relevant_docs": [
+      "CANADIABANK_Fixed Deposit Account"
+    ]
+  },
+  {
+    "id": "fd_20",
+    "difficulty": "medium",
+    "query": "term deposit with lowest minimum opening balance in USD",
+    "collection": "fixed_deposits",
+    "relevant_docs": [
+      "WINGBANK_Term Deposit",
+      "KBPRASACBANK_Term Deposit Account"
+    ]
+  },
+  {
+    "id": "fd_21",
+    "difficulty": "medium",
+    "query": "term deposit that allows monthly interest but no partial withdrawal",
+    "collection": "fixed_deposits",
+    "relevant_docs": [
+      "WINGBANK_Term Deposit",
+      "ABABANK_Fixed Deposit"
+    ]
+  },
+  {
+    "id": "fd_22",
+    "difficulty": "hard",
+    "query": "term deposit where early closure applies savings account interest",
+    "collection": "fixed_deposits",
+    "relevant_docs": [
+      "ABABANK_Fixed Deposit",
+      "CANADIABANK_Fixed Deposit Account",
+      "SATHAPANABANK_Term Deposit"
+    ]
+  },
+  {
+    "id": "fd_23",
+    "difficulty": "easy",
+    "query": "Sathapana Bank term deposit",
+    "collection": "fixed_deposits",
+    "bank_codes": [
+      "SATHAPANABANK"
+    ],
+    "relevant_docs": [
+      "SATHAPANABANK_Term Deposit"
+    ]
+  },
+  {
+    "id": "fd_24",
+    "difficulty": "easy",
+    "query": "PPC Bank fixed deposit account",
+    "collection": "fixed_deposits",
+    "bank_codes": [
+      "PPCBANK"
+    ],
+    "relevant_docs": [
+      "PPCBANK_Fixed Deposit Account"
+    ]
+  },
+  {
+    "id": "fd_25",
+    "difficulty": "easy",
+    "query": "how to open a fixed deposit account",
+    "collection": "fixed_deposits",
+    "relevant_docs": [
+      "ACLEDABANK_Term Deposit",
+      "ABABANK_Fixed Deposit",
+      "WINGBANK_Term Deposit",
+      "CANADIABANK_Fixed Deposit Account",
+      "CHIEFBANK_Fixed Deposit Account",
+      "SATHAPANABANK_Term Deposit",
+      "PPCBANK_Fixed Deposit Account",
+      "FTBBANK_Fixed Deposit",
+      "KBPRASACBANK_Term Deposit Account"
+    ]
+  },
+  {
+    "id": "sa_01",
+    "difficulty": "easy",
+    "query": "savings account offered by ABA Bank",
+    "collection": "savings_accounts",
+    "bank_code": "ABABANK",
+    "relevant_docs": [
+      "ABABANK_Savings Account"
+    ]
+  },
+  {
+    "id": "sa_02",
+    "difficulty": "easy",
+    "query": "savings account with zero minimum balance",
+    "collection": "savings_accounts",
+    "relevant_docs": [
+      "ABABANK_Savings Account",
+      "WINGBANK_High-Interest Savings Account",
+      "ACLEDABANK_Savings Account",
+      "LOLCMFI_Saving Account"
+    ]
+  },
+  {
+    "id": "sa_03",
+    "difficulty": "easy",
+    "query": "savings account that supports USD currency",
+    "collection": "savings_accounts",
+    "currency": "USD",
+    "relevant_docs": [
+      "ABABANK_Savings Account",
+      "CANADIABANK_Savings Account",
+      "WINGBANK_High-Interest Savings Account",
+      "SATHAPANABANK_Savings Account",
+      "ACLEDABANK_Savings Account",
+      "LOLCMFI_Saving Account",
+      "FTBBANK_Savings Account",
+      "CHIEFBANK_Saving Account",
+      "PPCBANK_Saving Account"
+    ]
+  },
+  {
+    "id": "sa_04",
+    "difficulty": "easy",
+    "query": "savings account available in both USD and KHR",
+    "collection": "savings_accounts",
+    "relevant_docs": [
+      "ABABANK_Savings Account",
+      "CANADIABANK_Savings Account",
+      "WINGBANK_High-Interest Savings Account",
+      "SATHAPANABANK_Savings Account",
+      "ACLEDABANK_Savings Account",
+      "LOLCMFI_Saving Account",
+      "FTBBANK_Savings Account",
+      "CHIEFBANK_Saving Account",
+      "PPCBANK_Saving Account"
+    ]
+  },
+  {
+    "id": "sa_05",
+    "difficulty": "medium",
+    "query": "savings account that pays interest monthly",
+    "collection": "savings_accounts",
+    "relevant_docs": [
+      "ABABANK_Savings Account",
+      "WINGBANK_High-Interest Savings Account",
+      "SATHAPANABANK_Savings Account",
+      "LOLCMFI_Saving Account"
+    ]
+  },
+  {
+    "id": "sa_06",
+    "difficulty": "medium",
+    "query": "savings account where interest is accrued daily",
+    "collection": "savings_accounts",
+    "relevant_docs": [
+      "ABABANK_Savings Account",
+      "WINGBANK_High-Interest Savings Account",
+      "ACLEDABANK_Savings Account",
+      "LOLCMFI_Saving Account"
+    ]
+  },
+  {
+    "id": "sa_07",
+    "difficulty": "easy",
+    "query": "Canadia Bank savings account",
+    "collection": "savings_accounts",
+    "bank_code": "CANADIABANK",
+    "relevant_docs": [
+      "CANADIABANK_Savings Account"
+    ]
+  },
+  {
+    "id": "sa_08",
+    "difficulty": "medium",
+    "query": "savings account with support for RMB currency",
+    "collection": "savings_accounts",
+    "currency": "RMB",
+    "relevant_docs": [
+      "CANADIABANK_Savings Account"
+    ]
+  },
+  {
+    "id": "sa_09",
+    "difficulty": "medium",
+    "query": "savings account that supports THB currency",
+    "collection": "savings_accounts",
+    "currency": "THB",
+    "relevant_docs": [
+      "CANADIABANK_Savings Account",
+      "ACLEDABANK_Savings Account",
+      "LOLCMFI_Saving Account"
+    ]
+  },
+  {
+    "id": "sa_10",
+    "difficulty": "medium",
+    "query": "savings account with tiered interest rate by balance",
+    "collection": "savings_accounts",
+    "relevant_docs": [
+      "ABABANK_Savings Account",
+      "WINGBANK_High-Interest Savings Account",
+      "CANADIABANK_Savings Account"
+    ]
+  },
+  {
+    "id": "sa_11",
+    "difficulty": "hard",
+    "query": "savings account that pays higher interest when balance is above 5000 USD",
+    "collection": "savings_accounts",
+    "currency": "USD",
+    "relevant_docs": [
+      "WINGBANK_High-Interest Savings Account",
+      "ABABANK_Savings Account"
+    ]
+  },
+  {
+    "id": "sa_12",
+    "difficulty": "medium",
+    "query": "savings account with no account maintenance fee",
+    "collection": "savings_accounts",
+    "relevant_docs": [
+      "ABABANK_Savings Account",
+      "FTBBANK_Savings Account",
+      "SATHAPANABANK_Savings Account",
+      "WINGBANK_High-Interest Savings Account"
+    ]
+  },
+  {
+    "id": "sa_13",
+    "difficulty": "medium",
+    "query": "savings account that issues debit card",
+    "collection": "savings_accounts",
+    "relevant_docs": [
+      "FTBBANK_Savings Account",
+      "SATHAPANABANK_Savings Account",
+      "CANADIABANK_Savings Account"
+    ]
+  },
+  {
+    "id": "sa_14",
+    "difficulty": "hard",
+    "query": "savings account with lowest minimum opening balance in USD",
+    "collection": "savings_accounts",
+    "currency": "USD",
+    "relevant_docs": [
+      "PPCBANK_Saving Account",
+      "ABABANK_Savings Account"
+    ]
+  },
+  {
+    "id": "sa_15",
+    "difficulty": "medium",
+    "query": "PPCBank savings account",
+    "collection": "savings_accounts",
+    "bank_code": "PPCBANK",
+    "relevant_docs": [
+      "PPCBANK_Saving Account"
+    ]
+  },
+  {
+    "id": "sa_16",
+    "difficulty": "hard",
+    "query": "savings account where interest is credited quarterly",
+    "collection": "savings_accounts",
+    "relevant_docs": [
+      "PPCBANK_Saving Account"
+    ]
+  },
+  {
+    "id": "sa_17",
+    "difficulty": "medium",
+    "query": "savings account that offers life insurance benefit",
+    "collection": "savings_accounts",
+    "relevant_docs": [
+      "LOLCMFI_Saving Account"
+    ]
+  },
+  {
+    "id": "sa_18",
+    "difficulty": "hard",
+    "query": "savings account with withholding tax rate of 4 percent for residents",
+    "collection": "savings_accounts",
+    "relevant_docs": [
+      "ABABANK_Savings Account",
+      "WINGBANK_High-Interest Savings Account",
+      "CHIEFBANK_Saving Account"
+    ]
+  },
+  {
+    "id": "sa_19",
+    "difficulty": "medium",
+    "query": "savings account that allows unlimited withdrawals",
+    "collection": "savings_accounts",
+    "relevant_docs": [
+      "ABABANK_Savings Account",
+      "LOLCMFI_Saving Account"
+    ]
+  },
+  {
+    "id": "sa_20",
+    "difficulty": "hard",
+    "query": "business savings account with multi currency support",
+    "collection": "savings_accounts",
+    "segment": "Business",
+    "relevant_docs": [
+      "ACLEDABANK_Savings Account",
+      "CHIEFBANK_Saving Account"
+    ]
+  },
+  {
+    "id": "sa_21",
+    "difficulty": "easy",
+    "query": "Wing Bank savings account",
+    "collection": "savings_accounts",
+    "bank_code": "WINGBANK",
+    "relevant_docs": [
+      "WINGBANK_High-Interest Savings Account"
+    ]
+  },
+  {
+    "id": "sa_22",
+    "difficulty": "hard",
+    "query": "savings account with early closure fee applied if closed within 6 months",
+    "collection": "savings_accounts",
+    "relevant_docs": [
+      "WINGBANK_High-Interest Savings Account",
+      "FTBBANK_Savings Account"
+    ]
+  },
+  {
+    "id": "sa_23",
+    "difficulty": "medium",
+    "query": "savings account with free mobile or internet banking access",
+    "collection": "savings_accounts",
+    "relevant_docs": [
+      "FTBBANK_Savings Account",
+      "ABABANK_Savings Account",
+      "LOLCMFI_Saving Account"
+    ]
+  },
+  {
+    "id": "sa_24",
+    "difficulty": "medium",
+    "query": "savings account that requires national ID or passport only",
+    "collection": "savings_accounts",
+    "relevant_docs": [
+      "ABABANK_Savings Account",
+      "SATHAPANABANK_Savings Account",
+      "FTBBANK_Savings Account"
+    ]
+  },
+  {
+    "id": "sa_25",
+    "difficulty": "easy",
+    "query": "how to open a savings account",
+    "collection": "savings_accounts",
+    "relevant_docs": [
+      "ABABANK_Savings Account",
+      "ACLEDABANK_Savings Account",
+      "CANADIABANK_Savings Account",
+      "WINGBANK_High-Interest Savings Account",
+      "FTBBANK_Savings Account",
+      "SATHAPANABANK_Savings Account",
+      "PPCBANK_Saving Account",
+      "LOLCMFI_Saving Account",
+      "CHIEFBANK_Saving Account"
+    ]
+  }
+]

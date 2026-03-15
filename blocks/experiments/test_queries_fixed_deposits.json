@@ -1,0 +1,281 @@
+[
+  {
+    "id": "fd_01",
+    "difficulty": "easy",
+    "query": "fixed deposit account in USD",
+    "collection": "fixed_deposits",
+    "currency": "USD",
+    "relevant_docs": [
+      "ACLEDABANK_Term Deposit",
+      "ABABANK_Fixed Deposit",
+      "WINGBANK_Term Deposit",
+      "CHIEFBANK_Fixed Deposit Account",
+      "CANADIABANK_Fixed Deposit Account"
+    ]
+  },
+  {
+    "id": "fd_02",
+    "difficulty": "easy",
+    "query": "fixed deposit account in Cambodian Riel",
+    "collection": "fixed_deposits",
+    "currency": "KHR",
+    "relevant_docs": [
+      "ACLEDABANK_Term Deposit",
+      "ABABANK_Fixed Deposit",
+      "WINGBANK_Term Deposit",
+      "SATHAPANABANK_Term Deposit",
+      "CANADIABANK_Fixed Deposit Account"
+    ]
+  },
+  {
+    "id": "fd_03",
+    "difficulty": "medium",
+    "query": "which bank offers fixed deposit in Thai Baht",
+    "collection": "fixed_deposits",
+    "currency": "THB",
+    "relevant_docs": [
+      "ACLEDABANK_Term Deposit",
+      "CANADIABANK_Fixed Deposit Account"
+    ]
+  },
+  {
+    "id": "fd_04",
+    "difficulty": "medium",
+    "query": "fixed deposit account that supports RMB currency",
+    "collection": "fixed_deposits",
+    "currency": "RMB",
+    "relevant_docs": [
+      "CANADIABANK_Fixed Deposit Account"
+    ]
+  },
+  {
+    "id": "fd_05",
+    "difficulty": "medium",
+    "query": "Canadia Bank fixed deposit with quarterly interest payment",
+    "collection": "fixed_deposits",
+    "bank_codes": ["CANADIABANK"],
+    "relevant_docs": [
+      "CANADIABANK_Fixed Deposit Account"
+    ]
+  },
+  {
+    "id": "fd_06",
+    "difficulty": "medium",
+    "query": "fixed deposit that pays interest every 3 months",
+    "collection": "fixed_deposits",
+    "relevant_docs": [
+      "ACLEDABANK_Term Deposit",
+      "FTBBANK_Fixed Deposit"
+    ]
+  },
+  {
+    "id": "fd_07",
+    "difficulty": "easy",
+    "query": "fixed deposit with interest paid at maturity",
+    "collection": "fixed_deposits",
+    "relevant_docs": [
+      "ABABANK_Fixed Deposit",
+      "CHIEFBANK_Fixed Deposit Account",
+      "WINGBANK_Term Deposit",
+      "CANADIABANK_Fixed Deposit Account"
+    ]
+  },
+  {
+    "id": "fd_08",
+    "difficulty": "easy",
+    "query": "fixed deposit with monthly interest payment",
+    "collection": "fixed_deposits",
+    "relevant_docs": [
+      "ACLEDABANK_Term Deposit",
+      "WINGBANK_Term Deposit",
+      "ABABANK_Fixed Deposit",
+      "PPCBANK_Fixed Deposit Account",
+      "KBPRASACBANK_Term Deposit Account"
+    ]
+  },
+  {
+    "id": "fd_09",
+    "difficulty": "medium",
+    "query": "term deposit that allows interest payout every month but principal at maturity",
+    "collection": "fixed_deposits",
+    "relevant_docs": [
+      "ACLEDABANK_Term Deposit",
+      "WINGBANK_Term Deposit",
+      "KBPRASACBANK_Term Deposit Account"
+    ]
+  },
+  {
+    "id": "fd_10",
+    "difficulty": "medium",
+    "query": "minimum USD deposit for ACLEDA term deposit opened via mobile app",
+    "collection": "fixed_deposits",
+    "bank_codes": ["ACLEDABANK"],
+    "currency": "USD",
+    "relevant_docs": [
+      "ACLEDABANK_Term Deposit"
+    ]
+  },
+  {
+    "id": "fd_11",
+    "difficulty": "medium",
+    "query": "minimum USD deposit for ACLEDA term deposit opened at branch counter",
+    "collection": "fixed_deposits",
+    "bank_codes": ["ACLEDABANK"],
+    "currency": "USD",
+    "relevant_docs": [
+      "ACLEDABANK_Term Deposit"
+    ]
+  },
+  {
+    "id": "fd_12",
+    "difficulty": "medium",
+    "query": "term deposit certificate that can be used as loan collateral",
+    "collection": "fixed_deposits",
+    "relevant_docs": [
+      "ACLEDABANK_Term Deposit",
+      "KBPRASACBANK_Term Deposit Account"
+    ]
+  },
+  {
+    "id": "fd_13",
+    "difficulty": "hard",
+    "query": "ACLEDA hi-growth term deposit rate for 12 months in USD",
+    "collection": "fixed_deposits",
+    "bank_codes": ["ACLEDABANK"],
+    "currency": "USD",
+    "relevant_docs": [
+      "ACLEDABANK_Term Deposit"
+    ]
+  },
+  {
+    "id": "fd_14",
+    "difficulty": "hard",
+    "query": "ACLEDA hi-income term deposit with monthly interest for 12 months in USD",
+    "collection": "fixed_deposits",
+    "bank_codes": ["ACLEDABANK"],
+    "currency": "USD",
+    "relevant_docs": [
+      "ACLEDABANK_Term Deposit"
+    ]
+  },
+  {
+    "id": "fd_15",
+    "difficulty": "hard",
+    "query": "ACLEDA long-term term deposit interest for 36 months in KHR",
+    "collection": "fixed_deposits",
+    "bank_codes": ["ACLEDABANK"],
+    "currency": "KHR",
+    "relevant_docs": [
+      "ACLEDABANK_Term Deposit"
+    ]
+  },
+  {
+    "id": "fd_16",
+    "difficulty": "medium",
+    "query": "fixed deposit with tenure longer than 5 years",
+    "collection": "fixed_deposits",
+    "relevant_docs": [
+      "ACLEDABANK_Term Deposit",
+      "CANADIABANK_Fixed Deposit Account"
+    ]
+  },
+  {
+    "id": "fd_17",
+    "difficulty": "medium",
+    "query": "Wing Bank term deposit interest rate for 12 months with monthly payout",
+    "collection": "fixed_deposits",
+    "bank_codes": ["WINGBANK"],
+    "relevant_docs": [
+      "WINGBANK_Term Deposit"
+    ]
+  },
+  {
+    "id": "fd_18",
+    "difficulty": "medium",
+    "query": "Chief Bank fixed deposit interest for 12 months in USD",
+    "collection": "fixed_deposits",
+    "bank_codes": ["CHIEFBANK"],
+    "currency": "USD",
+    "relevant_docs": [
+      "CHIEFBANK_Fixed Deposit Account"
+    ]
+  },
+  {
+    "id": "fd_19",
+    "difficulty": "hard",
+    "query": "Canadia Bank fixed deposit 3-year term with quarterly interest",
+    "collection": "fixed_deposits",
+    "bank_codes": ["CANADIABANK"],
+    "relevant_docs": [
+      "CANADIABANK_Fixed Deposit Account"
+    ]
+  },
+  {
+    "id": "fd_20",
+    "difficulty": "medium",
+    "query": "term deposit with lowest minimum opening balance in USD",
+    "collection": "fixed_deposits",
+    "relevant_docs": [
+      "WINGBANK_Term Deposit",
+      "KBPRASACBANK_Term Deposit Account"
+    ]
+  },
+  {
+    "id": "fd_21",
+    "difficulty": "medium",
+    "query": "term deposit that allows monthly interest but no partial withdrawal",
+    "collection": "fixed_deposits",
+    "relevant_docs": [
+      "WINGBANK_Term Deposit",
+      "ABABANK_Fixed Deposit"
+    ]
+  },
+  {
+    "id": "fd_22",
+    "difficulty": "hard",
+    "query": "term deposit where early closure applies savings account interest",
+    "collection": "fixed_deposits",
+    "relevant_docs": [
+      "ABABANK_Fixed Deposit",
+      "CANADIABANK_Fixed Deposit Account",
+      "SATHAPANABANK_Term Deposit"
+    ]
+  },
+  {
+    "id": "fd_23",
+    "difficulty": "easy",
+    "query": "Sathapana Bank term deposit",
+    "collection": "fixed_deposits",
+    "bank_codes": ["SATHAPANABANK"],
+    "relevant_docs": [
+      "SATHAPANABANK_Term Deposit"
+    ]
+  },
+  {
+    "id": "fd_24",
+    "difficulty": "easy",
+    "query": "PPC Bank fixed deposit account",
+    "collection": "fixed_deposits",
+    "bank_codes": ["PPCBANK"],
+    "relevant_docs": [
+      "PPCBANK_Fixed Deposit Account"
+    ]
+  },
+  {
+    "id": "fd_25",
+    "difficulty": "easy",
+    "query": "how to open a fixed deposit account",
+    "collection": "fixed_deposits",
+    "relevant_docs": [
+      "ACLEDABANK_Term Deposit",
+      "ABABANK_Fixed Deposit",
+      "WINGBANK_Term Deposit",
+      "CANADIABANK_Fixed Deposit Account",
+      "CHIEFBANK_Fixed Deposit Account",
+      "SATHAPANABANK_Term Deposit",
+      "PPCBANK_Fixed Deposit Account",
+      "FTBBANK_Fixed Deposit",
+      "KBPRASACBANK_Term Deposit Account"
+    ]
+  }
+]

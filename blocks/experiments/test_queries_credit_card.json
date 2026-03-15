@@ -1,0 +1,284 @@
+[
+  {
+    "id": "cc_01",
+    "difficulty": "easy",
+    "query": "credit card offered by ABA Bank",
+    "collection": "credit_cards",
+    "relevant_docs": [
+      "ABABANK_Mastercard Standard",
+      "ABABANK_Visa Classic",
+      "ABABANK_Visa Platinum",
+      "ABABANK_Visa Platinum Lite",
+      "ABABANK_Mastercard Platinum",
+      "ABABANK_Visa Business"
+    ]
+  },
+  {
+    "id": "cc_02",
+    "difficulty": "easy",
+    "query": "Visa credit card from ABA Bank",
+    "collection": "credit_cards",
+    "network": "Visa",
+    "bank_code": "ABABANK",
+    "relevant_docs": [
+      "ABABANK_Visa Classic",
+      "ABABANK_Visa Platinum",
+      "ABABANK_Visa Platinum Lite",
+      "ABABANK_Visa Business"
+    ]
+  },
+  {
+    "id": "cc_03",
+    "difficulty": "easy",
+    "query": "Mastercard credit card from ABA Bank",
+    "collection": "credit_cards",
+    "network": "Mastercard",
+    "bank_code": "ABABANK",
+    "relevant_docs": [
+      "ABABANK_Mastercard Standard",
+      "ABABANK_Mastercard Platinum"
+    ]
+  },
+  {
+    "id": "cc_04",
+    "difficulty": "easy",
+    "query": "premium credit card from ABA Bank",
+    "collection": "credit_cards",
+    "bank_code": "ABABANK",
+    "relevant_docs": [
+      "ABABANK_Visa Platinum",
+      "ABABANK_Mastercard Platinum",
+      "ABABANK_Visa Platinum Lite"
+    ]
+  },
+  {
+    "id": "cc_05",
+    "difficulty": "medium",
+    "query": "ABA credit card with lowest annual fee",
+    "collection": "credit_cards",
+    "bank_code": "ABABANK",
+    "relevant_docs": [
+      "ABABANK_Mastercard Standard",
+      "ABABANK_Visa Classic"
+    ]
+  },
+  {
+    "id": "cc_06",
+    "difficulty": "medium",
+    "query": "ABA credit card with airport lounge access",
+    "collection": "credit_cards",
+    "bank_code": "ABABANK",
+    "relevant_docs": [
+      "ABABANK_Visa Platinum",
+      "ABABANK_Mastercard Platinum"
+    ]
+  },
+  {
+    "id": "cc_07",
+    "difficulty": "medium",
+    "query": "credit card with interest free period of 45 days",
+    "collection": "credit_cards",
+    "relevant_docs": [
+      "ABABANK_Visa Classic",
+      "ABABANK_Mastercard Standard",
+      "CANADIABANK_Visa Gold",
+      "CANADIABANK_Visa Infinite"
+    ]
+  },
+  {
+    "id": "cc_08",
+    "difficulty": "easy",
+    "query": "Wing Bank credit card",
+    "collection": "credit_cards",
+    "bank_code": "WINGBANK",
+    "relevant_docs": [
+      "WINGBANK_Visa Credit Card Gold",
+      "WINGBANK_Visa Credit Card Platinum"
+    ]
+  },
+  {
+    "id": "cc_09",
+    "difficulty": "medium",
+    "query": "Wing credit card with airport lounge access",
+    "collection": "credit_cards",
+    "bank_code": "WINGBANK",
+    "relevant_docs": [
+      "WINGBANK_Visa Credit Card Gold",
+      "WINGBANK_Visa Credit Card Platinum"
+    ]
+  },
+  {
+    "id": "cc_10",
+    "difficulty": "hard",
+    "query": "Wing credit card that allows 55 days interest free period",
+    "collection": "credit_cards",
+    "bank_code": "WINGBANK",
+    "relevant_docs": [
+      "WINGBANK_Visa Credit Card Gold",
+      "WINGBANK_Visa Credit Card Platinum"
+    ]
+  },
+  {
+    "id": "cc_11",
+    "difficulty": "medium",
+    "query": "Canadia Bank Visa credit cards",
+    "collection": "credit_cards",
+    "bank_code": "CANADIABANK",
+    "network": "Visa",
+    "relevant_docs": [
+      "CANADIABANK_Visa Classic",
+      "CANADIABANK_Visa Gold",
+      "CANADIABANK_Visa Infinite"
+    ]
+  },
+  {
+    "id": "cc_12",
+    "difficulty": "medium",
+    "query": "Canadia credit card with minimum credit limit of at least 20000 USD",
+    "collection": "credit_cards",
+    "bank_code": "CANADIABANK",
+    "relevant_docs": [
+      "CANADIABANK_Visa Infinite"
+    ]
+  },
+  {
+    "id": "cc_13",
+    "difficulty": "hard",
+    "query": "credit card backed 100 percent by fixed deposit",
+    "collection": "credit_cards",
+    "relevant_docs": [
+      "CANADIABANK_Visa Infinite",
+      "CANADIABANK_Visa Gold",
+      "CANADIABANK_Mastercard Gold"
+    ]
+  },
+  {
+    "id": "cc_14",
+    "difficulty": "easy",
+    "query": "Canadia Bank Mastercard credit card",
+    "collection": "credit_cards",
+    "bank_code": "CANADIABANK",
+    "network": "Mastercard",
+    "relevant_docs": [
+      "CANADIABANK_Mastercard Classic",
+      "CANADIABANK_Mastercard Gold"
+    ]
+  },
+  {
+    "id": "cc_15",
+    "difficulty": "hard",
+    "query": "credit card with lounge access and annual fee above 250 USD",
+    "collection": "credit_cards",
+    "relevant_docs": [
+      "CANADIABANK_Visa Infinite",
+      "ABABANK_Visa Platinum",
+      "ABABANK_Mastercard Platinum"
+    ]
+  },
+  {
+    "id": "cc_16",
+    "difficulty": "medium",
+    "query": "credit card with daily purchase limit of 50000 USD",
+    "collection": "credit_cards",
+    "relevant_docs": [
+      "ABABANK_Visa Platinum",
+      "ABABANK_Mastercard Platinum",
+      "CANADIABANK_Visa Infinite"
+    ]
+  },
+  {
+    "id": "cc_17",
+    "difficulty": "medium",
+    "query": "credit card with low foreign currency transaction fee",
+    "collection": "credit_cards",
+    "relevant_docs": [
+      "ABABANK_Visa Classic",
+      "CANADIABANK_Visa Gold"
+    ]
+  },
+  {
+    "id": "cc_18",
+    "difficulty": "easy",
+    "query": "ACLEDA credit card",
+    "collection": "credit_cards",
+    "bank_code": "ACLEDABANK",
+    "relevant_docs": [
+      "ACLEDABANK_Visa Classic",
+      "ACLEDABANK_Visa Gold",
+      "ACLEDABANK_Visa Platinum"
+    ]
+  },
+  {
+    "id": "cc_19",
+    "difficulty": "medium",
+    "query": "ACLEDA Visa credit card with highest daily withdrawal limit",
+    "collection": "credit_cards",
+    "bank_code": "ACLEDABANK",
+    "relevant_docs": [
+      "ACLEDABANK_Visa Platinum"
+    ]
+  },
+  {
+    "id": "cc_20",
+    "difficulty": "hard",
+    "query": "credit card with annual fee under 20 USD and interest free period",
+    "collection": "credit_cards",
+    "relevant_docs": [
+      "ABABANK_Visa Classic",
+      "CANADIABANK_Visa Classic",
+      "ACLEDABANK_Visa Classic"
+    ]
+  },
+  {
+    "id": "cc_21",
+    "difficulty": "easy",
+    "query": "Sathapana Bank credit card",
+    "collection": "credit_cards",
+    "bank_code": "SATHAPANABANK",
+    "relevant_docs": [
+      "SATHAPANABANK_Classic Card",
+      "SATHAPANABANK_Gold Card",
+      "SATHAPANABANK_Platinum Card"
+    ]
+  },
+  {
+    "id": "cc_22",
+    "difficulty": "hard",
+    "query": "credit card with supplementary cards allowed up to 5",
+    "collection": "credit_cards",
+    "relevant_docs": [
+      "WINGBANK_Visa Credit Card Gold",
+      "WINGBANK_Visa Credit Card Platinum"
+    ]
+  },
+  {
+    "id": "cc_23",
+    "difficulty": "medium",
+    "query": "credit card with cashback or merchant discount offers",
+    "collection": "credit_cards",
+    "relevant_docs": [
+      "CANADIABANK_Visa Infinite",
+      "CANADIABANK_Visa Gold"
+    ]
+  },
+  {
+    "id": "cc_24",
+    "difficulty": "hard",
+    "query": "credit card with highest airport lounge access per year",
+    "collection": "credit_cards",
+    "relevant_docs": [
+      "ABABANK_Visa Platinum",
+      "ABABANK_Mastercard Platinum",
+      "WINGBANK_Visa Credit Card Platinum"
+    ]
+  },
+  {
+    "id": "cc_25",
+    "difficulty": "medium",
+    "query": "credit card suitable for business use",
+    "collection": "credit_cards",
+    "relevant_docs": [
+      "ABABANK_Visa Business"
+    ]
+  }
+]

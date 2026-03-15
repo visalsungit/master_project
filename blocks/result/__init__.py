@@ -1,0 +1,1 @@
+# blocks.result package init
