@@ -336,6 +336,7 @@ Rules:
 - Return ONLY valid JSON. No markdown, no commentary.
 - Output must match this schema (example structure):
 {json.dumps(schema)}
+- If the question is NOT about banking products, rates, or financial data (e.g., greetings, general knowledge, math, unrelated topics), set intent to GENERAL and omit bank_codes.
 - If unsure, set intent to GENERAL.
 - If no bank is mentioned, omit bank_codes.
 - If the user describes a sequence like "USD to KHR then buy USD" (round-trip FX), keep it as ONE task with intent FX (do not split).
@@ -3020,21 +3021,25 @@ def main():
             try:
                 planned = _llm_plan_tasks(user_input)
                 
-                # Guardrail: validate LLM intent against heuristic classifier
-                # If they strongly disagree, prefer the heuristic (more reliable for banking keywords)
+                # Guardrail: validate LLM intent against heuristic classifier.
+                # Trust the LLM when it says GENERAL (non-banking question) — the LLM understands
+                # context better than keyword matching. Only correct the LLM when it picks a
+                # *wrong* banking intent (e.g. LOAN when keywords clearly indicate FX).
                 for task in planned:
                     q = task.get("question") or user_input
                     heuristic_intents = classify_intents(q)
                     llm_intent = task.get("intent")
-                    
-                    # If heuristic found specific intent but LLM said GENERAL, override
-                    if heuristic_intents and heuristic_intents[0] != "GENERAL" and llm_intent == "GENERAL":
+
+                    # If LLM picked a specific banking intent that differs from a confident
+                    # heuristic, override — but NEVER promote GENERAL to a banking intent here.
+                    if (
+                        llm_intent != "GENERAL"
+                        and heuristic_intents
+                        and len(heuristic_intents) == 1
+                        and llm_intent not in heuristic_intents
+                        and heuristic_intents[0] in {"FX", "LOAN", "FIXED_DEPOSIT", "SAVINGS", "CREDIT_CARD"}
+                    ):
                         task["intent"] = heuristic_intents[0]
-                    
-                    # If LLM picked intent not in heuristic list and heuristic is confident, override
-                    if heuristic_intents and len(heuristic_intents) == 1 and llm_intent not in heuristic_intents:
-                        if heuristic_intents[0] in {"FX", "LOAN", "FIXED_DEPOSIT", "SAVINGS", "CREDIT_CARD"}:
-                            task["intent"] = heuristic_intents[0]
             except Exception as e:
                 # Fallback to heuristic Approach B if router fails.
                 print(f"⚠️ LLM router failed ({str(e)}), using heuristic classifier")
@@ -3069,11 +3074,12 @@ def main():
                 bank_codes = t.get("bank_codes")
                 currency = t.get("currency")
 
-                # Guardrail: if the LLM router picked an intent that contradicts obvious keywords,
-                # fall back to the heuristic classifier.
-                heur = classify_intents(q)
-                if heur and heur[0] != "GENERAL":
-                    if intent not in heur:
+                # Guardrail: if the LLM router picked a specific banking intent that contradicts
+                # the heuristic, correct it — but never override GENERAL, since GENERAL means
+                # the LLM decided this is NOT a banking/DB question and should answer directly.
+                if intent != "GENERAL":
+                    heur = classify_intents(q)
+                    if heur and heur[0] != "GENERAL" and intent not in heur:
                         intent = heur[0]
 
                 # Fill missing bank_codes/currency from deterministic parsers.
